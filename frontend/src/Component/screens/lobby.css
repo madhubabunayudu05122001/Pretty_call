@@ -1,0 +1,38 @@
+.dii{
+    background-color: #fad0c4;
+background-image: linear-gradient(315deg, #fad0c4 0%, #f1a7f1 74%);
+
+    
+}
+
+
+
+.l{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.f{
+    text-align: center;
+    margin: 50px;
+margin-bottom: -50px;
+    
+}
+.i1{
+    width: 300px;
+  margin:10px;
+  border-radius: 5px;
+}
+.i2{
+    width:300px;
+    padding-right: 50px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.f button{
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 100px;
+    
+}

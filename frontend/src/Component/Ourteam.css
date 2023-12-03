@@ -1,0 +1,34 @@
+.ourr h1{
+   text-align: center;
+   font-family: 'Carter One';
+   font-weight: bolder;
+   font-style: italic;
+   color:indigo
+  
+}
+
+.cards9{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   justify-content: space-around;
+   padding: 30px;
+   background-color: #fad0c4;
+   background-image: linear-gradient(315deg, #fad0c4 0%, #f1a7f1 74%);
+   
+   
+
+}
+
+.cards1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   justify-content: space-around;
+   padding: 30px;
+   background-color: #fad0c4;
+   background-image: linear-gradient(315deg, #fad0c4 0%, #f1a7f1 74%);
+}
+.card{
+    margin-bottom: 30px;
+}

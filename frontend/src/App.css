@@ -1,0 +1,160 @@
+.body{
+  overflow-x:hidden;
+}
+
+.App{
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /* background-color: navajowhite; */
+  color: black;
+  background-image: url('https://png.pngtree.com/back_origin_pic/04/15/86/6c3d9239bde6c74a3e63e70870ac66a1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}  
+
+
+/* @media screen and (min-width: 600px){ */
+ .lr, .login, .register{
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+/* } */
+/* @media screen and (min-width: 600px){ */
+  .lr{
+    padding: 15px 35px ;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+    color: white;
+    padding-bottom: 50px;
+    
+    
+  }
+/* } */
+
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+  font-weight: bold;
+  /* font-size: 100px; */
+
+  
+}
+.lr input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+.lr button{
+  border: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  margin-top: 10px;
+  
+}
+.lr button:hover{
+  background: rgb(70, 70, 219);
+  color: white;
+}
+.link-btn{
+  background: none;
+  color: black;
+  text-decoration: underline;
+}
+.link-btn1{
+  border: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  margin-top: 10px;
+  background: none;
+  color:white;
+  text-decoration: underline;
+}
+/* .welcome .p1{
+
+  
+  text-align: center;
+}
+
+ img{
+  text-align: left;
+  padding-left:0.8rem;
+  margin-top: 0.5rem;
+  
+  border-radius: 5px solid black;
+}
+
+
+.room{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+cursor: pointer;
+border-radius: 10px;
+}
+
+.hi{
+  display: flex;
+}
+.room input{
+  border: 3px solid white;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.room button{
+  border: 3px solid white;
+  color: white;
+  background-color: black;
+}
+.contact{
+  text-align: center;
+  margin-top: 100px;
+}
+.col{
+  background-color:black;
+  color: white;
+  padding: 50px;
+  
+}
+
+.gettouch{
+  margin-bottom: 10px;
+  
+} */
+
+@media (max-width:800px){
+  .App{
+    /* background-color: aqua; */
+    background-image: url('https://png.pngtree.com/back_origin_pic/04/15/86/6c3d9239bde6c74a3e63e70870ac66a1.jpg');
+    height: 100vh;
+    align-items: center;
+    display: flex;
+  }
+  .welcome{
+    text-align: center;
+  }
+  /* .img{
+    text-align: left;
+    padding-left:0.8rem;
+    margin-top: 0.5rem;
+
+  } */
+}
+
+
+
+  
